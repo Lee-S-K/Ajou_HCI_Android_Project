@@ -1,0 +1,2 @@
+rootProject.name='hci_project_2'
+include ':app'

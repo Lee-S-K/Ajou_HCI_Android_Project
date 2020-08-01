@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sklee.asd">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".FirstScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BoardActivity"/>
+        <activity android:name=".Timer" />
+        <activity android:name=".finishActivity" />
+        <activity android:name=".course13Activity" />
+        <activity android:name=".course12Activity" />
+        <activity android:name=".course11Activity" />
+        <activity android:name=".course10Activity" />
+        <activity android:name=".course9Activity" />
+        <activity android:name=".course8Activity" />
+        <activity android:name=".course7Activity" />
+        <activity android:name=".course6Activity" />
+        <activity android:name=".course5Activity" />
+        <activity android:name=".course4Activity" />
+        <activity android:name=".course3Activity" />
+        <activity android:name=".course2Activity" />
+        <activity android:name=".course1Activity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Intent2" />
+        <activity android:name=".Intent1" />
+        <activity android:name=".c" />
+        <activity android:name=".b" />
+        <activity android:name=".a"/>
+
+
+    </application>
+
+</manifest>

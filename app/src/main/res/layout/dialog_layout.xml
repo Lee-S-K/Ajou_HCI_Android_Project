@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/time_counter4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="5:00"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btn_layout_dia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="종료" />
+</LinearLayout>
